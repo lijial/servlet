@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.4">
+  <welcome-file-list>
+    <welcome-file>fdsa.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>firstServlet</servlet-name>
+    <servlet-class>com.jalo.HttpServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>firstServlet</servlet-name>
+    <url-pattern>/HttpServlet</url-pattern>
+  </servlet-mapping>
+  <context-param>
+    <param-name>driver2</param-name>
+    <param-value>whole.com.mysql.jdbc.Driver</param-value>
+  </context-param>
+</web-app>
