@@ -43,7 +43,9 @@ public class HttpServlet extends javax.servlet.http.HttpServlet {
 			throws ServletException, IOException {
 //		System.out.println("===========doget===========" + Thread.currentThread().getName()+","+new Date());
 		PrintWriter pw = resp.getWriter();//以字符为单位
-		pw.write("doget()"+Thread.currentThread().getName()+","+new Date());
+		pw.write("doget()"+Thread.currentThread().getName()+","+new Date()+"\r");
+		pw.write("servlet param is " + this.getInitParameter("servletParam")
+				+", servletContext param is " + getServletContext().getInitParameter("contextParam"));
 		pw.close();
 		try {
 			Thread.sleep(10000);

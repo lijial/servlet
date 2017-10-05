@@ -1,0 +1,17 @@
+.idea/artifacts/tesdfsa_war.xml
+.idea/artifacts/tesdfsa_war_exploded.xml
+.idea/compiler.xml
+.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml
+.idea/libraries/Maven__junit_junit_3_8_1.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+target/tesdfsa-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF
+target/tesdfsa-0.0.1-SNAPSHOT/WEB-INF/classes/com/jalo/HttpServlet.class
+target/tesdfsa-0.0.1-SNAPSHOT/WEB-INF/lib/javax.servlet-api-3.1.0.jar
+target/tesdfsa-0.0.1-SNAPSHOT/WEB-INF/views/welcome.html
+target/tesdfsa-0.0.1-SNAPSHOT/WEB-INF/web.xml
+target/tesdfsa-0.0.1-SNAPSHOT/WEB-INF/welcome.html
+tesdfsa.iml
+.idea/vcs.xml
+target/classes/com/jalo/HttpServlet.class
